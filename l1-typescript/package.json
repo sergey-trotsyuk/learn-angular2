@@ -1,0 +1,21 @@
+{
+  "name": "l1-typescript",
+  "version": "0.1.0",
+  "description": "",
+  "main": "shapes/index.js",
+  "scripts": {
+    "start": "npm run watch:ts",
+    "watch:ts": "tsc -t ES6 -m commonjs -w shapes/index.ts",
+    "watch:node": "watch 'node shapes/index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.1.4"
+  },
+  "devDependencies": {
+    "watch": "^1.0.1"
+  }
+}
